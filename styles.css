@@ -1,0 +1,240 @@
+body{
+    background-color: #0a0a0a;
+    font-size: 40px;
+    font-family: 'Red Hat Mono', monospace;
+    color: white;
+}
+.center{
+    text-align: center;
+}
+.multi {
+    margin: auto;
+    width: 60%;
+    border: 5px solid #111111;
+    background-color: #1111115d;
+    border-radius:  40px;
+    padding: 10px;
+}
+.upgrades{
+    width: 600px;
+    height: 550px;
+}
+button {
+    margin: 0;
+    padding: 10px 20px;
+    height: 60px;
+    width: 150px;
+    outline: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: 1px solid rgba(51, 51, 51, 0.6);
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: inherit;
+    z-index: 0;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.glow {
+    text-shadow: 0 0 20px #fff;
+    font-size: 70px;
+    text-align: center;
+}
+.static {
+    position: fixed;
+    top: 30px;
+    left: 600px;
+}
+.staticnes {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.getitbutton{
+    position: relative;
+    top: 0px;
+    left: 106px;
+}
+br {
+    line-height: 10px;
+}
+.ascendtree{
+    text-align: center;
+}
+.upg{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-size: 20px;
+}
+.ap{
+    text-align: center;
+}
+.gate{
+    position: fixed;
+    right: 100px;
+}
+.smelter{
+    position: fixed;
+    top: 250px;
+    right: 1000px;
+}
+.smelter2{
+    position: fixed;
+    top: 250px;
+    right: 550px;
+}
+.news{
+    text-align: absolute;
+    top: 10px;
+    left: 600px;
+    font-size: 30px;
+}
+.saveanim{
+    position: fixed;
+    top: -10px;
+    right: 10px;
+}
+.shardbutton:hover{
+    width: 130px;
+    height: 230px;
+}
+.gatebutton:hover{
+    width: 340px;
+    height: 340px;
+}
+.stars{
+  width: 1000px;
+  height: 1000px;
+  position: fixed;
+  top: 0px;
+  z-index:-1;
+}
+.liquid{
+  width: 270px;
+  height: 210px;
+  border-radius: 500px;
+  background-color: rgb(0, 0, 0);
+}
+#drinkflask{
+  position: absolute;
+  left: 173px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+/* https://stackoverflow.com/questions/27253263/position-div-inside-a-image-responsive */
+.col-lg-3{
+  width: 25%;
+  min-width: 230px;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+.col-lg-3 img {
+  max-width: 100%;
+}
+.img-container {
+  display: inline-block;
+  position: fixed;
+  top: 300px;
+  left: 770px;
+}
+.positioning{
+  position: absolute;
+  right: 11px;
+  bottom: 0px;
+  padding: 4px;
+}
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_left */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  right: 10%;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+/* Code by https://stackoverflow.com/users/5095697/w-stoettinger */
+/* Question https://stackoverflow.com/questions/16989585/css-3-slide-in-from-left-transition */
+/* Slightly modified by me */
+.slide-in {
+  z-index: 10;
+  overflow: hidden;
+}
+.slide-in.from-left {
+  left: 0;
+}
+.slide-in.from-right {
+  right: 0;
+}
+.slide-in-content {
+  padding: 5px 20px;
+  background: #0a0a0a;
+  transition: transform .5s ease;
+}
+.slide-in.from-left .slide-in-content {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+.slide-in.from-right .slide-in-content {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.slide-in.show .slide-in-content {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
+.mod-in {
+  z-index: 10;
+  overflow: hidden;
+}
+.mod-in.from-left {
+  left: 0;
+}
+.mod-in.from-right {
+  right: 0;
+}
+.mod-in-content {
+  padding: 5px 20px;
+  background: #0a0a0a;
+  transition: transform .5s ease;
+}
+.mod-in.from-left .mod-in-content {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+}
+.mod-in.from-right .mod-in-content {
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+.mod-in.show .mod-in-content {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}
