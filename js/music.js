@@ -144,7 +144,7 @@ function continuecheckofinternet(){
         end();
     }
     else{
-        alert("It appears that you have a slow internet connection \n This can cause music to cut out")
+        alert("您的互联网连接似乎很慢 \n 这可能会导致音乐中断")
         loadmusic();
     }
 }
